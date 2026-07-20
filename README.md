@@ -2,10 +2,10 @@
 
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=36&pause=1000&color=00F2FE&center=true&vcenter=true&width=650&height=70&lines=S+T+E+G;Secure+Steganographic+System;AES-256+%2B+LSB+Pixel+Embedding;Zero-Trace+Cyber-Vault" alt="STEG Banner Animation" />
 
-  <h3>🛡️ Next-Generation Steganographic Cyber-Vault & Encrypted Communication Portal</h3>
+  <h3><font color="#00F2FE">🛡️ Next-Generation Steganographic Cyber-Vault & Encrypted Communication Portal</font></h3>
 
   <p align="center">
-    <strong>Invisible Data Embedding &bull; AES-256 Encryption &bull; Bcrypt Vault Protection &bull; One-Click Cryptographic Purge</strong>
+    <strong><font color="#FF2A6D">Invisible Data Embedding</font> &bull; <font color="#00F2FE">AES-256 Encryption</font> &bull; <font color="#05D54B">Bcrypt Vault Protection</font> &bull; <font color="#FFC107">One-Click Cryptographic Purge</font></strong>
   </p>
 
   <p align="center">
@@ -14,16 +14,16 @@
     <a href="https://pycryptodome.readthedocs.io/"><img src="https://img.shields.io/badge/Crypto-AES--256-00F2FE?style=for-the-badge&logo=letsencrypt&logoColor=black" alt="AES-256"></a>
     <a href="https://pillow.readthedocs.io/"><img src="https://img.shields.io/badge/Stego-LSB%20RGB-FF2A6D?style=for-the-badge&logo=image&logoColor=white" alt="LSB Steganography"></a>
     <a href="https://sqlite.org/"><img src="https://img.shields.io/badge/Database-SQLite3-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite"></a>
-    <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-05D54B?style=for-the-badge" alt="License"></a>
+    <a href="https://chartjs.org/"><img src="https://img.shields.io/badge/UI-Glassmorphism-9D4EDD?style=for-the-badge&logo=css3&logoColor=white" alt="Glassmorphism UI"></a>
   </p>
 
   <p align="center">
-    <a href="#-key-features"><b>Key Features</b></a> &bull;
-    <a href="#-system-architecture"><b>Architecture</b></a> &bull;
-    <a href="#-tech-stack"><b>Tech Stack</b></a> &bull;
-    <a href="#-repository-structure"><b>Repository Structure</b></a> &bull;
-    <a href="#-quick-start"><b>Quick Start</b></a> &bull;
-    <a href="#-security-specifications"><b>Security Specs</b></a>
+    <a href="#-executive-overview"><b><font color="#00F2FE">Overview</font></b></a> &bull;
+    <a href="#-key-features"><b><font color="#FF2A6D">Features</font></b></a> &bull;
+    <a href="#-system-architecture--workflow"><b><font color="#05D54B">Architecture</font></b></a> &bull;
+    <a href="#-tech-stack--engineering-specs"><b><font color="#9D4EDD">Tech Stack</font></b></a> &bull;
+    <a href="#-quick-start--execution"><b><font color="#FFC107">Quick Start</font></b></a> &bull;
+    <a href="#-cryptographic--security-specifications"><b><font color="#00F2FE">Security Specs</font></b></a>
   </p>
 
   <hr width="100%" size="1" color="#1F2937" />
@@ -31,20 +31,50 @@
 
 <br />
 
-## 🌟 Executive Overview
+## 🌟 <font color="#00F2FE">Executive Overview</font>
 
-**STEG** is a flagship high-integrity security suite engineered for ultra-confidential data transmission. By synergizing **AES-256 symmetric cipher encryption** with **24-bit RGB Least Significant Bit (LSB) steganography**, STEG transforms ordinary image files into cryptographically sealed, visually indistinguishable data carriers. 
+<font color="#00F2FE"><b>STEG</b></font> is a flagship high-integrity security suite engineered for ultra-confidential data transmission. By synergizing <font color="#FF2A6D"><b>AES-256 symmetric cipher encryption</b></font> with <font color="#05D54B"><b>24-bit RGB Least Significant Bit (LSB) steganography</b></font>, STEG transforms ordinary image files into cryptographically sealed, visually indistinguishable data carriers. 
 
 Even if an image carrier is intercepted by unauthorized entities, the payload remains double-shielded—imperceptible to manual visual analysis and cryptographically unbreakable without the private decryption key.
 
 <div align="center">
 
-| Security Layer | Defense Mechanism | Cryptographic Principle | Target Threat |
-| :--- | :--- | :--- | :--- |
-| **Layer 1: Confidentiality** | AES-256 Payload Cipher | Symmetric Key Derivation | Unauthorized Data Extraction |
-| **Layer 2: Invisibility** | Spatial LSB Pixel Shading | RGB Color Channel Modification | Statistical & Visual Detection |
-| **Layer 3: Access Control** | Bcrypt Vault Passwords | Salted Work-Factor Hashing | Unauthorized Vault Access |
-| **Layer 4: Erasure** | One-Click Purge Pipeline | Instant File & DB Record Shredding | Data Persistence Risks |
+<table width="100%">
+  <thead>
+    <tr style="background-color: #0d1117;">
+      <th width="22%" align="center"><font color="#00F2FE"><b>Defense Layer</b></font></th>
+      <th width="28%" align="center"><font color="#FF2A6D"><b>Mechanism</b></font></th>
+      <th width="25%" align="center"><font color="#05D54B"><b>Cryptographic Principle</b></font></th>
+      <th width="25%" align="center"><font color="#FFC107"><b>Target Threat Neutralized</b></font></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><b><font color="#00F2FE">Layer 1: Confidentiality</font></b></td>
+      <td align="center"><code>AES-256 Payload Cipher</code></td>
+      <td align="center">Symmetric Key Derivation</td>
+      <td align="center"><font color="#FF5555">Unauthorized Data Extraction</font></td>
+    </tr>
+    <tr>
+      <td align="center"><b><font color="#FF2A6D">Layer 2: Invisibility</font></b></td>
+      <td align="center"><code>Spatial LSB Shading</code></td>
+      <td align="center">RGB Color Channel Shifting</td>
+      <td align="center"><font color="#FF5555">Visual & Statistical Detection</font></td>
+    </tr>
+    <tr>
+      <td align="center"><b><font color="#05D54B">Layer 3: Access Control</font></b></td>
+      <td align="center"><code>Bcrypt Vault Passwords</code></td>
+      <td align="center">Salted Work-Factor Hashing</td>
+      <td align="center"><font color="#FF5555">Unauthorized Vault Access</font></td>
+    </tr>
+    <tr>
+      <td align="center"><b><font color="#FFC107">Layer 4: Erasure</font></b></td>
+      <td align="center"><code>One-Click Purge Pipeline</code></td>
+      <td align="center">Instant Storage Shredding</td>
+      <td align="center"><font color="#FF5555">Data Persistence Risks</font></td>
+    </tr>
+  </tbody>
+</table>
 
 </div>
 
@@ -52,37 +82,37 @@ Even if an image carrier is intercepted by unauthorized entities, the payload re
 
 ---
 
-## ⚡ Key Features
+## ⚡ <font color="#FF2A6D">Key Features</font>
 
 <table width="100%">
   <tr>
-    <td width="50%" valign="top">
-      <h3 align="left">🔐 Dual-Layer Defense Architecture</h3>
-      <p>Messages undergo AES-256 encryption using a user-specified key prior to spatial embedding, guaranteeing payload privacy even if steganographic algorithms are inspected.</p>
+    <td width="50%" valign="top" style="border: 1px solid #1f2937; border-radius: 8px; padding: 15px;">
+      <h3 align="left"><font color="#00F2FE">🔐 Dual-Layer Defense Architecture</font></h3>
+      <p>Messages undergo <font color="#FF2A6D"><b>AES-256 symmetric encryption</b></font> using a user-specified key prior to spatial embedding, guaranteeing payload privacy even if steganographic algorithms are inspected.</p>
     </td>
-    <td width="50%" valign="top">
-      <h3 align="left">👁️‍🗨️ Zero-Distortion LSB Embedding</h3>
-      <p>Utilizes Least Significant Bit manipulation across RGB image channels. Alters pixel values by microscopic amounts to maintain zero perceptual quality loss.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="left">🛡️ Bcrypt Cyber-Vault Portal</h3>
-      <p>Access to encoded assets is protected by <code>bcrypt</code> hashed access credentials. Database records contain zero plaintext secret keys or passwords.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="left">🌫️ Privacy-Blurred Decode Gateway</h3>
-      <p>Decryption portal features client-side privacy blur layers, requiring multi-factor authentication steps (Vault Password + Decryption Key) to unveil data.</p>
+    <td width="50%" valign="top" style="border: 1px solid #1f2937; border-radius: 8px; padding: 15px;">
+      <h3 align="left"><font color="#05D54B">👁️‍🗨️ Zero-Distortion LSB Embedding</font></h3>
+      <p>Utilizes <font color="#05D54B"><b>Least Significant Bit manipulation</b></font> across RGB image channels. Alters pixel values by microscopic amounts to maintain zero perceptual quality loss.</p>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h3 align="left">📊 Interactive Asset Dashboard</h3>
-      <p>Futuristic cyber-vault console for managing steganographic assets, tracking creation dates, and viewing real-time asset metrics powered by Chart.js.</p>
+    <td width="50%" valign="top" style="border: 1px solid #1f2937; border-radius: 8px; padding: 15px;">
+      <h3 align="left"><font color="#9D4EDD">🛡️ Bcrypt Cyber-Vault Portal</font></h3>
+      <p>Access to encoded assets is guarded by <font color="#9D4EDD"><code>bcrypt</code> <b>hashed access credentials</b></font>. Database records contain zero plaintext secret keys or passwords.</p>
     </td>
-    <td width="50%" valign="top">
-      <h3 align="left">💥 Cryptographic One-Click Purge</h3>
-      <p>Execute immediate, irreversible removal of carrier image files and SQLite relational records upon completing sensitive communications.</p>
+    <td width="50%" valign="top" style="border: 1px solid #1f2937; border-radius: 8px; padding: 15px;">
+      <h3 align="left"><font color="#FFC107">🌫️ Privacy-Blurred Decode Gateway</font></h3>
+      <p>Decryption portal features client-side <font color="#FFC107"><b>privacy blur layers</b></font>, requiring multi-factor authentication steps (Vault Password + Decryption Key) to unveil data.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" style="border: 1px solid #1f2937; border-radius: 8px; padding: 15px;">
+      <h3 align="left"><font color="#00F2FE">📊 Interactive Asset Dashboard</font></h3>
+      <p>Futuristic cyber-vault console for managing steganographic assets, tracking creation dates, and viewing real-time asset metrics powered by <font color="#00F2FE"><b>Chart.js</b></font>.</p>
+    </td>
+    <td width="50%" valign="top" style="border: 1px solid #1f2937; border-radius: 8px; padding: 15px;">
+      <h3 align="left"><font color="#FF5555">💥 Cryptographic One-Click Purge</font></h3>
+      <p>Execute immediate, irreversible removal of carrier image files and SQLite relational records upon completing sensitive communications with <font color="#FF5555"><b>zero trace remaining</b></font>.</p>
     </td>
   </tr>
 </table>
@@ -91,37 +121,56 @@ Even if an image carrier is intercepted by unauthorized entities, the payload re
 
 ---
 
-## 🏗️ System Architecture & Workflow
+## 🏗️ <font color="#05D54B">System Architecture & Workflow</font>
+
+<div align="center">
+
+### 🔄 <font color="#00F2FE">Visual Execution Pipeline</font>
+
+<table width="100%">
+  <tr>
+    <td width="50%" align="center" style="border: 1px solid #00F2FE; border-radius: 8px; padding: 12px;">
+      <h4><font color="#00F2FE">🔒 ENCODING PIPELINE</font></h4>
+      <p><code>Plaintext Message</code> ➔ <b><font color="#FF2A6D">AES-256 Encrypt</font></b> ➔ <code>Ciphertext</code></p>
+      <p><code>Original Image</code> ➔ <b><font color="#05D54B">LSB Pixel Embed</font></b> ➔ <code>Stego Carrier</code></p>
+      <p><code>Vault Password</code> ➔ <b><font color="#9D4EDD">Bcrypt Hash</font></b> ➔ <code>SQLite DB Storage</code></p>
+    </td>
+    <td width="50%" align="center" style="border: 1px solid #FF2A6D; border-radius: 8px; padding: 12px;">
+      <h4><font color="#FF2A6D">🔑 DECODING PIPELINE</font></h4>
+      <p><code>User Request</code> ➔ <b><font color="#9D4EDD">Bcrypt Vault Auth</font></b> ➔ <code>Access Granted</code></p>
+      <p><code>Stego Carrier</code> ➔ <b><font color="#05D54B">LSB Pixel Extract</font></b> ➔ <code>Ciphertext</code></p>
+      <p><code>Ciphertext</code> + <code>Key</code> ➔ <b><font color="#00F2FE">AES-256 Decrypt</font></b> ➔ <code>Unveiled Secret</code></p>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+<br />
 
 ```mermaid
 flowchart TD
-    %% Styling Node Definitions
-    classDef client fill:#0d1117,stroke:#00F2FE,stroke-width:2px,color:#fff;
-    classDef crypto fill:#0d1117,stroke:#FF2A6D,stroke-width:2px,color:#fff;
-    classDef stego fill:#0d1117,stroke:#05D54B,stroke-width:2px,color:#fff;
-    classDef db fill:#0d1117,stroke:#FFC107,stroke-width:2px,color:#fff;
-
-    subgraph ENCODE_PIPELINE ["🔒 1. Encoding & Embedding Pipeline"]
-        A[Plaintext Secret Message] ::: client --> B[AES-256 Encryption Engine] ::: crypto
-        K1[Encryption Password] ::: crypto --> B
-        B --> C[Encrypted Cipher Text Payload] ::: crypto
-        D[Original Carrier Image] ::: stego --> E[LSB Spatial Domain Embedder] ::: stego
+    subgraph ENCODE ["🔒 1. ENCODING PIPELINE"]
+        A[Plaintext Secret Message] --> B[AES-256 Encryption Engine]
+        K1[Encryption Key] --> B
+        B --> C[Encrypted Ciphertext Payload]
+        D[Original Carrier Image] --> E[LSB Pixel Embedding Engine]
         C --> E
-        E --> F[Encoded Stego Image File] ::: stego
-        P1[Vault Access Password] ::: client --> G[Bcrypt Hash Generator] ::: crypto
-        G --> H[(SQLite Database Record)] ::: db
+        E --> F[Encoded Stego Image Carrier]
+        P1[Vault Access Password] --> G[Bcrypt Password Hash]
+        G --> H[(SQLite Asset Database)]
         F --> H
     end
 
-    subgraph DECODE_PIPELINE ["🔑 2. Vault Access & Extraction Pipeline"]
-        I[User Requests Vault Asset] ::: client --> J[Bcrypt Vault Authentication] ::: crypto
-        J -->|Access Granted| L[Privacy-Blur Extraction Portal] ::: client
-        L --> M[LSB Spatial Domain Extractor] ::: stego
+    subgraph DECODE ["🔑 2. DECODING PIPELINE"]
+        I[User Access Request] --> J[Bcrypt Vault Auth Guard]
+        J --> L[Privacy-Blur Extraction Portal]
+        L --> M[LSB Pixel Extraction Engine]
         F --> M
-        M --> N[Extracted Cipher Text] ::: crypto
-        N --> O[AES-256 Decryption Engine] ::: crypto
-        K2[Decryption Key Input] ::: client --> O
-        O --> P[Original Unveiled Secret Message] ::: client
+        M --> N[Extracted Ciphertext Payload]
+        N --> O[AES-256 Decryption Engine]
+        K2[Decryption Key Input] --> O
+        O --> P[Original Unveiled Secret Message]
     end
 ```
 
@@ -129,18 +178,18 @@ flowchart TD
 
 ---
 
-## 🛠️ Tech Stack & Engineering Specs
+## 🛠️ <font color="#9D4EDD">Tech Stack & Engineering Specs</font>
 
 <div align="center">
 
-| Category | Technology | Usage & Purpose |
+| Category | Technology Badge | Usage & Engineering Purpose |
 | :--- | :--- | :--- |
-| **Backend Engine** | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" /> | Core micro-framework handling server routing, payload processing, and asset lifecycle |
-| **Cryptography** | <img src="https://img.shields.io/badge/PyCryptodome-00F2FE?style=flat-square&logo=letsencrypt&logoColor=black" /> <img src="https://img.shields.io/badge/Bcrypt-FF2A6D?style=flat-square&logo=auth0&logoColor=white" /> | High-performance AES-256 symmetric encryption and salted password hashing |
-| **Image Processing** | <img src="https://img.shields.io/badge/Pillow_(PIL)-05D54B?style=flat-square&logo=image&logoColor=white" /> | Spatial domain pixel buffer manipulation for 24-bit RGB LSB steganography |
-| **Database** | <img src="https://img.shields.io/badge/SQLite3-003B57?style=flat-square&logo=sqlite&logoColor=white" /> | Relational data persistence for asset metadata, hashed access keys, and cipher pointers |
-| **Frontend UI/UX** | <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" /> | Custom Cyberpunk Glassmorphism UI with responsive design tokens |
-| **Visuals & UX** | <img src="https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white" /> <img src="https://img.shields.io/badge/AOS.js-00D2FF?style=flat-square" /> <img src="https://img.shields.io/badge/SweetAlert2-7066E0?style=flat-square" /> | Dynamic interactive charts, scroll animations, and context-aware alerts |
+| **Backend Engine** | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" /> | <font color="#00F2FE">Core micro-framework handling server routing, payload processing, and asset lifecycle</font> |
+| **Cryptography** | <img src="https://img.shields.io/badge/PyCryptodome-00F2FE?style=flat-square&logo=letsencrypt&logoColor=black" /> <img src="https://img.shields.io/badge/Bcrypt-FF2A6D?style=flat-square&logo=auth0&logoColor=white" /> | <font color="#FF2A6D">High-performance AES-256 symmetric encryption and salted password hashing</font> |
+| **Image Processing** | <img src="https://img.shields.io/badge/Pillow_(PIL)-05D54B?style=flat-square&logo=image&logoColor=white" /> | <font color="#05D54B">Spatial domain pixel buffer manipulation for 24-bit RGB LSB steganography</font> |
+| **Database** | <img src="https://img.shields.io/badge/SQLite3-003B57?style=flat-square&logo=sqlite&logoColor=white" /> | <font color="#9D4EDD">Relational data persistence for asset metadata, hashed access keys, and cipher pointers</font> |
+| **Frontend UI/UX** | <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" /> | <font color="#FFC107">Custom Cyberpunk Glassmorphism UI with responsive design tokens</font> |
+| **Visuals & UX** | <img src="https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white" /> <img src="https://img.shields.io/badge/AOS.js-00D2FF?style=flat-square" /> <img src="https://img.shields.io/badge/SweetAlert2-7066E0?style=flat-square" /> | <font color="#00F2FE">Dynamic interactive charts, scroll animations, and context-aware alerts</font> |
 
 </div>
 
@@ -148,7 +197,7 @@ flowchart TD
 
 ---
 
-## 📂 Repository Structure
+## 📂 <font color="#FFC107">Repository Structure</font>
 
 ```gcode
 STEG/
@@ -193,7 +242,7 @@ STEG/
 
 ---
 
-## 🚀 Quick Start & Execution
+## 🚀 <font color="#00F2FE">Quick Start & Execution</font>
 
 ### 1. Prerequisites
 Ensure **Python 3.8+** is installed on your local environment.
@@ -232,23 +281,51 @@ Open your browser and navigate to **`http://127.0.0.1:5000`**.
 
 ---
 
-## 🔬 Cryptographic & Security Specifications
+## 🔬 <font color="#00F2FE">Cryptographic & Security Specifications</font>
 
 <div align="center">
 
-```
-================================================================================
-  SPECIFICATION KEY         |  IMPLEMENTATION DETAILS
-================================================================================
-  Encryption Standard       |  AES-256 (Advanced Encryption Standard)
-  Cipher Mode               |  PyCryptodome Symmetric Block Cipher
-  Steganographic Method     |  Least Significant Bit (LSB) 24-bit RGB Channel
-  Key Storage               |  Zero-Knowledge (Keys are never saved to disk/DB)
-  Vault Access Hashing      |  Bcrypt Salted Password Hashing
-  Image Carrier Integrity   |  100% Visual Fidelity (Zero Perceptible Distortion)
-  Asset Destruction         |  Cryptographic File & DB Record Shredding
-================================================================================
-```
+<table width="100%">
+  <thead>
+    <tr style="background-color: #0d1117;">
+      <th width="25%" align="left"><font color="#00F2FE"><b>Security Dimension</b></font></th>
+      <th width="30%" align="left"><font color="#FF2A6D"><b>Specification Standard</b></font></th>
+      <th width="45%" align="left"><font color="#05D54B"><b>Technical Defense Guarantee</b></font></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b><font color="#00F2FE">Payload Encryption</font></b></td>
+      <td><code>AES-256 Cipher</code></td>
+      <td><font color="#00F2FE">PyCryptodome block cipher providing military-grade encryption prior to stego embedding.</font></td>
+    </tr>
+    <tr>
+      <td><b><font color="#FF2A6D">Steganographic Method</font></b></td>
+      <td><code>Spatial LSB 24-bit RGB</code></td>
+      <td><font color="#FF2A6D">Modifies least significant bits of pixel buffers with 0% visual distortion or degradation.</font></td>
+    </tr>
+    <tr>
+      <td><b><font color="#05D54B">Vault Access Protection</font></b></td>
+      <td><code>Bcrypt Salted Work-Factor</code></td>
+      <td><font color="#05D54B">Adaptive salted hashing guarding database entries against dictionary & brute-force attacks.</font></td>
+    </tr>
+    <tr>
+      <td><b><font color="#9D4EDD">Key Storage Policy</font></b></td>
+      <td><code>Zero-Knowledge Architecture</code></td>
+      <td><font color="#9D4EDD">Encryption keys and plaintext messages are never stored on server disk or database.</font></td>
+    </tr>
+    <tr>
+      <td><b><font color="#FFC107">Carrier Image Integrity</font></b></td>
+      <td><code>Lossless Perception Profile</code></td>
+      <td><font color="#FFC107">Maintains 100% PSNR visual fidelity; indistinguishable color histogram signatures.</font></td>
+    </tr>
+    <tr>
+      <td><b><font color="#FF5555">Asset Purge Protocol</font></b></td>
+      <td><code>Cryptographic Destruction</code></td>
+      <td><font color="#FF5555">Instant simultaneous shredding of carrier image files and relational DB records.</font></td>
+    </tr>
+  </tbody>
+</table>
 
 </div>
 
@@ -261,15 +338,15 @@ Open your browser and navigate to **`http://127.0.0.1:5000`**.
   <hr width="100%" size="1" color="#1F2937" />
 
   <p align="center">
-    <strong>STEG | Secure Steganographic Communication System</strong>
+    <strong><font color="#00F2FE">STEG</font> | <font color="#FF2A6D">Secure Steganographic Communication System</font></strong>
   </p>
 
   <p align="center">
-    <a href="#top">⬆ Back to Top</a>
+    <a href="#top"><b><font color="#00F2FE">⬆ Back to Top</font></b></a>
   </p>
 
   <p align="center">
-    <sub>Developed with precision by <strong>Antigravity AI</strong> &bull; Released under the MIT License</sub>
+    <sub>Engineered with precision by <strong>Antigravity AI</strong></sub>
   </p>
 
 </div>
